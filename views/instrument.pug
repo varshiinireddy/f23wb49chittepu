@@ -13,7 +13,7 @@ block content
     - for (let i = 0; i < results.length; i++)
       .col-sm-2
         h4= results[i].Name
-        //h3(onclick=`buy(${i})`) BUY
+        h3(onclick=`buy(${i})`) BUY
         p product_type : #{results[i].product_type} 
         p Price: $#{results[i].price}
 
